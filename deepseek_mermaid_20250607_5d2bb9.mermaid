@@ -1,0 +1,6 @@
+graph TB
+A[Inicio] --> B{{Carga state.json}}
+B --> C[Input Usuario: 50-100 tokens]
+C --> D[Procesamiento: <br>- Match con grafo de conocimiento<br>- Generar respuesta técnica]
+D --> E{{Guardar en progress.md}}
+E --> F[Output: <br>- Acciones concretas<br>- Pregunta focalizada]
